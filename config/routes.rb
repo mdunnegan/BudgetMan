@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   devise_for :users
 
   root :to => 'high_voltage/pages#show', :id => 'about'
+  get '*path' => 'application#index'
   
   # devise_scope :user do
   #   root to: "devise/sessions#new"

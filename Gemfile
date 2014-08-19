@@ -4,6 +4,8 @@ ruby '2.1.1'
 
 gem 'devise'
 gem 'high_voltage', '~> 2.2.1'
+gem 'bower-rails'
+gem 'angular-rails-templates'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
